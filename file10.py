@@ -10,7 +10,7 @@ def main(data:str):
     arr = data.split('\n')
     for i in arr:
         arr_1.append(len(i))
-    return arr_1
+    return max(arr_1)
 
 # Read data from file
 f = open('txt_file/data10.txt','r')
